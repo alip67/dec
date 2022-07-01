@@ -25,3 +25,14 @@ MANIFEST
 
 # Jupyter Notebook
 .ipynb_checkpoints
+data/bio/GSE115828.csv
+data/bio/GSE104687.csv
+data/bio/GSE107559.csv
+data/bio/GSE150961.csv
+data/bio/GSE28435.csv
+data/bio/GSE33779.csv
+data/bio/GSE44903.csv
+data/bio/GSE38705.csv
+data/bio/GSE181225.csv
+data/bio/GSE57148.csv
+data/bio/GSE54456.csv
