@@ -24,7 +24,7 @@ class CachedMNIST(Dataset):
     def __init__(self, train, cuda,dataset_name, testing_mode=False):
         img_transform = transforms.Compose([transforms.Lambda(self._transformation)])
         # self.ds = MNIST("./data", download=True, train=train, transform=img_transform)
-        dataset = pd.read_csv(dataset_name)
+        dataset = pd.read_csv(f'./data/bio/{dataset_name}')
         dataset = dataset.astype(np.float32)
         # hard-coding label as 0 for all data
         self.ds = [(torch.from_numpy(x), 0) for x in dataset.to_numpy()]
