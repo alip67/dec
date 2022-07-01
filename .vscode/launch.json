@@ -1,0 +1,19 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "python":"C:\\Users\\ALIP\\.conda\\envs\\eigsolver\\python.exe",
+            "python.terminal.activateEnvironment": true,
+            "terminal.integrated.shell.windows": "C:\\Windows\\System32\\cmd.exe",
+            "name": "Python: Current File",
+            "type": "python",
+            "request": "launch",
+            "program": "${file}",
+            "console": "integratedTerminal",
+            "justMyCode": false
+        }
+    ]
+}
